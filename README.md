@@ -1,3 +1,4 @@
 # Generative-AI
 
-![page1_1](https://github.com/user-attachments/assets/b05b1dcd-12e3-4929-a627-5368e526cfe2)
+![page1_1](https://github.com/user-attachments/assets/1a587742-11f2-4a63-876d-9de1bb04d3b7)
+
