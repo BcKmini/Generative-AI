@@ -1,0 +1,64 @@
+/* src/styles/TypingPractice.css */
+.typing-container {
+    @apply flex flex-col items-center justify-center min-h-screen bg-gray-50 p-4;
+  }
+  
+  .typing-card {
+    @apply w-full max-w-2xl bg-white rounded-lg shadow-xl p-6;
+  }
+  
+  .header-container {
+    @apply flex justify-between items-center mb-6;
+  }
+  
+  .title {
+    @apply text-2xl font-bold text-gray-800;
+  }
+  
+  .button-container {
+    @apply flex gap-2;
+  }
+  
+  .language-button {
+    @apply flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition;
+  }
+  
+  .reset-button {
+    @apply flex items-center gap-2 px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-600 transition;
+  }
+  
+  .words-container {
+    @apply text-lg mb-4 bg-gray-100 p-4 rounded;
+  }
+  
+  .word {
+    @apply mx-1;
+  }
+  
+  .current-word {
+    @apply bg-yellow-200;
+  }
+  
+  .typed-word {
+    @apply text-gray-400;
+  }
+  
+  .input-field {
+    @apply w-full p-3 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500;
+  }
+  
+  .stats-container {
+    @apply grid grid-cols-2 gap-4 mb-6;
+  }
+  
+  .stat-box {
+    @apply bg-gray-100 p-4 rounded;
+  }
+  
+  .stat-label {
+    @apply text-sm text-gray-600;
+  }
+  
+  .stat-value {
+    @apply text-2xl font-bold;
+  }
